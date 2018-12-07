@@ -5,16 +5,13 @@
 body{
   color:#777777;
   /*background-image: "../images/background.png"; */
-  background-color: aqua;
   font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
   background-image: url(../images/background.png);
-  
-
-}
+  line-height: 2;
+  }
 .container{
   margin: 10px auto;
   width: 960px;
-  background-color: aqua;
   overflow: auto;
 }
 section{
@@ -28,63 +25,69 @@ header{
   padding: 15px;
   margin-bottom: 10px; 
   margin: 0,auto;
-  border-bottom-color:#195a19;
+  border-bottom-color:#cccccc;
   border-bottom-style: solid; 
 }
 
 h1,h2,h3,h4,h5{
   font-family: 'Georgia', Times, "Times New Roman", serif;
-  
+  margin-left:10px;
+  color:#4aaaa5;
 }
+
 h1{
-  background-color: #195a19;
+  background-color: #4aaaa5;
   display: inline;
   margin-right: 20%;
-  
+  color: #ffffff;
+  padding:0 auto;
 }
 h2{
-  border-bottom-color:#195a19;
+  border-bottom-color:#777777;
   border-bottom-style: solid;
 }
 footer{
   background-color: #666666;
   padding: 10px;
-  border-top-color:#195a19;
+  border-top-color:#dddddd;
   border-top-style: solid;
-  
+  text-align: center;
+  color: #ffffff;
 }
 a{
+  margin-right: 5px;
+  text-decoration: none;
+  color: #777777;
   }
 
 #bio-image{
-float: left;
+  float: left;
+  margin-left: 10px;
+  margin-right: 10px;
 }
-p{
-  clear: both;
-  text-align: inherit;
+P{
+  margin-left: 10px;
 }
-/* modifications of the list item to create a menu */
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: #333333;
-  display: inline;
+/* nav to create a menu */
+nav{
+  float: right;
 }
-
-li {
-  display: inline-block;
-  margin-right: 20px;
+form{
+  margin-left: 10px;
+  
 }
-
-a {
-  display: inline;
-  color: white;
-  text-align: center;
-  text-decoration: none;
+.btn{
+  background-color: #4aaaa5;
+  margin-right: 20%;
+  color: #ffffff;
+  
+    
 }
 
-a:hover {
-  background-color: #111111;
+.btn:hover {
+    background: #ffffff;
+    color: #648880;
+}
+.form{
+  
 }
